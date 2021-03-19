@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE5D82D3258BDA3100835B0F /* WhatDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5D82D3258BDA3100835B0F /* WeekDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5D82D6258BDA3100835B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE5D82D8258BDA3100835B0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE5D82DA258BDA3100835B0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		FE5D82CA258BDA3100835B0F = {
 			isa = PBXGroup;
 			children = (
-				FE5D82D5258BDA3100835B0F /* WhatDay */,
+				FE5D82D5258BDA3100835B0F /* WeekDay */,
 				FE5D82D4258BDA3100835B0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		FE5D82D4258BDA3100835B0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE5D82D3258BDA3100835B0F /* WhatDay.app */,
+				FE5D82D3258BDA3100835B0F /* WeekDay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE5D82D5258BDA3100835B0F /* WhatDay */ = {
+		FE5D82D5258BDA3100835B0F /* WeekDay */ = {
 			isa = PBXGroup;
 			children = (
 				FE5D82D6258BDA3100835B0F /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				FE5D82E1258BDA3200835B0F /* LaunchScreen.storyboard */,
 				FE5D82E4258BDA3200835B0F /* Info.plist */,
 			);
-			path = WhatDay;
+			path = WeekDay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE5D82D2258BDA3100835B0F /* WhatDay */ = {
+		FE5D82D2258BDA3100835B0F /* WeekDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE5D82E7258BDA3200835B0F /* Build configuration list for PBXNativeTarget "WhatDay" */;
+			buildConfigurationList = FE5D82E7258BDA3200835B0F /* Build configuration list for PBXNativeTarget "WeekDay" */;
 			buildPhases = (
 				FE5D82CF258BDA3100835B0F /* Sources */,
 				FE5D82D0258BDA3100835B0F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = WhatDay;
+			name = WeekDay;
 			productName = WhatDay;
-			productReference = FE5D82D3258BDA3100835B0F /* WhatDay.app */;
+			productReference = FE5D82D3258BDA3100835B0F /* WeekDay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE5D82CE258BDA3100835B0F /* Build configuration list for PBXProject "WhatDay" */;
+			buildConfigurationList = FE5D82CE258BDA3100835B0F /* Build configuration list for PBXProject "WeekDay" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE5D82D2258BDA3100835B0F /* WhatDay */,
+				FE5D82D2258BDA3100835B0F /* WeekDay */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZZ5827BGY;
-				INFOPLIST_FILE = WhatDay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeekDay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = t.begishev.WhatDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +308,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QZZ5827BGY;
-				INFOPLIST_FILE = WhatDay/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeekDay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,14 +317,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = t.begishev.WhatDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE5D82CE258BDA3100835B0F /* Build configuration list for PBXProject "WhatDay" */ = {
+		FE5D82CE258BDA3100835B0F /* Build configuration list for PBXProject "WeekDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE5D82E5258BDA3200835B0F /* Debug */,
@@ -331,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE5D82E7258BDA3200835B0F /* Build configuration list for PBXNativeTarget "WhatDay" */ = {
+		FE5D82E7258BDA3200835B0F /* Build configuration list for PBXNativeTarget "WeekDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE5D82E8258BDA3200835B0F /* Debug */,
